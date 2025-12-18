@@ -34,10 +34,16 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+
+
 Half Adder 
+
+
 <img width="383" height="280" alt="image" src="https://github.com/user-attachments/assets/78454ec0-4d30-43cb-b987-4ede31132296" />
 
 Half Subractor
+
+
 <img width="438" height="287" alt="image" src="https://github.com/user-attachments/assets/7f19e245-8506-4b9d-a955-6b2b1e9cf5fb" />
 
 
@@ -56,7 +62,10 @@ Half Subractor
 
 
 **Program:**
+
+
 Half adder
+
 ```
 module DE3(a,b,sum,carry); 
 input a,b; 
@@ -65,7 +74,10 @@ assign sum= (a ^ b);
 assign carry= ( a & b); 
 endmodule 
 ```
+
 Half Subbractor
+
+
 ```
 module DE3(a,b,difference,borrow); 
 input a,b; 
@@ -76,7 +88,10 @@ endmodule
 ```
 
 **RTL Schematic**
+
+
 Half Adder
+
 <img width="411" height="228" alt="image" src="https://github.com/user-attachments/assets/452060ea-1a50-4652-ade5-5e37ab88ca8d" />
 
 Half Subractor
@@ -84,6 +99,8 @@ Half Subractor
 <img width="447" height="201" alt="image" src="https://github.com/user-attachments/assets/760537b4-7e62-4aab-9abb-e4eee9cedfdc" />
 
 **Output/TIMING Waveform**
+
+
 Half Adder
 
 <img width="1048" height="594" alt="image" src="https://github.com/user-attachments/assets/d1f2a698-f7fb-4967-919a-ce5b91569317" />
